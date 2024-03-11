@@ -1,5 +1,5 @@
 body {
-  width: 600px;
+  width: 800px;
   margin: auto;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
@@ -29,3 +29,8 @@ h1, h2 {
 
 h1 { border-top: 2px groove blue; }
 h2 { border-top: 1px dotted blue; }
+
+
+button {
+    font-size: 2em;
+}
