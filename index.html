@@ -25,7 +25,7 @@
     <button id="next">→</button>
   </div>
 
-  <div id="xkcd">
+  <div id="xkcd" class="centered">
     <img>
   </div>
 
@@ -54,7 +54,7 @@
 <li><code>https://xkcd.now.sh/?comic=0</code></li>
 </ul>
 
-<p>what does that content look like ? <br />
+<p>what does that content look like ?<br />
 what can be the meaning of <code>num</code> and <code>img</code> fields ?</p>
 
 <p><em>hint</em>: numbers are sequential</p>
@@ -88,7 +88,7 @@ possible conflict with other applications</li>
 <p>write a function <code>fetchIssue(num)</code> that</p>
 
 <ul>
-<li>fetches the URL <br />
+<li>fetches the URL<br />
 <code>https://xkcd.now.sh/?comic=</code><em><code>num</code></em></li>
 <li>decodes it contents</li>
 <li>displays the corresponding 'num' in the status area (and just that for now)</li>
