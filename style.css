@@ -34,3 +34,30 @@ h2 { border-top: 1px dotted blue; }
 button {
     font-size: 2em;
 }
+
+/* ce que je rajoute : */
+
+/* Centre tout le contenu de la page */
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Ajustement de l'image pour éviter le chevauchement */
+#xkcd img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Ajoute un espace autour de l'image */
+}
+
+/* Style du numéro de l’issue */
+#num {
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 10px;
+}
